@@ -1,0 +1,91 @@
+[
+  {
+    "name": "Colored Jute",
+    "image": "/assets/img/home/image.png",
+    "price": "499",
+    "colors": [
+      { "name": "blue", "stock": 0, "id": 1 },
+      { "name": "red", "stock": 1, "id": 2 },
+      { "name": "pink", "stock": 0, "id": 3 }
+    ],
+    "images": [
+      "/assets/img/home/image.png",
+      "/assets/img/home/image.png",
+      "/assets/img/home/image.png"
+    ]
+  },
+  {
+    "name": "Sling Bag",
+    "image": "/assets/img/home/image.png",
+    "price": "199",
+    "colors": [{ "name": "normal", "stock": 6 }],
+    "images": [
+      "/assets/img/home/image.png",
+      "/assets/img/home/image.png",
+      "/assets/img/home/image.png"
+    ]
+  },
+  {
+    "name": "Designed Jute",
+    "image": "/assets/img/home/minecraft.png",
+    "price": "999",
+    "colors": [{ "name": "normal", "stock": 0 }],
+    "images": [
+      "/assets/img/home/image.png",
+      "/assets/img/home/image.png",
+      "/assets/img/home/image.png"
+    ]
+  },
+  {
+    "name": "Hemp Bag",
+    "image": "/assets/img/home/image.png",
+    "price": "999",
+    "colors": [{ "name": "normal", "stock": 1 }],
+    "images": [
+      "/assets/img/home/image.png",
+      "/assets/img/home/image.png",
+      "/assets/img/home/image.png"
+    ]
+  },
+  {
+    "name": "Colored Stripes",
+    "image": "/assets/img/home/image.png",
+    "price": "999",
+    "colors": [{ "name": "normal", "stock": 1 }],
+    "images": [
+      "/assets/img/home/image.png",
+      "/assets/img/home/image.png",
+      "/assets/img/home/image.png"
+    ]
+  },
+  {
+    "name": "Designed Tote",
+    "image": "/assets/img/home/image.png",
+    "price": "5999",
+    "colors": [
+      {
+        "name": "/assets/img/home/image.png",
+        "stock": 3,
+        "encodedName": "Brave Text",
+        "id": 1
+      },
+      {
+        "name": "/assets/img/home/minecraft.png",
+        "stock": 1,
+        "encodedName": "Hello Kitty",
+        "id": 2
+      },
+      {
+        "name": "/assets/img/home/image.png",
+        "stock": 1,
+        "encodedName": "Coffee Image",
+        "id": 3
+      }
+    ],
+    "images": [
+      "/assets/img/home/image.png",
+      "/assets/img/home/minecraft.png",
+      "/assets/img/home/image.png"
+    ]
+  }
+]
