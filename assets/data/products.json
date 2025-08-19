@@ -4,8 +4,8 @@
     "image": "/assets/img/home/image.png",
     "price": "499",
     "colors": [
-      { "name": "blue", "stock": 0, "id": 1 },
-      { "name": "red", "stock": 1, "id": 2 },
+      { "name": "blue", "stock": 4, "id": 1 },
+      { "name": "red", "stock": 6, "id": 2 },
       { "name": "pink", "stock": 0, "id": 3 }
     ],
     "images": [
@@ -89,3 +89,4 @@
     ]
   }
 ]
+
