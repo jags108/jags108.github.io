@@ -11,9 +11,13 @@ window.addEventListener("scroll", () => {
   const header = document.querySelector("header");
   if (scrollPosition > 40) {
     header.classList.add("active");
+    header.classList.add("solid");
   } else {
     if (header.classList.contains("active")) {
       header.classList.remove("active");
+    }
+    if (header.classList.contains("solid")) {
+      header.classList.remove("solid");
     }
   }
 });
