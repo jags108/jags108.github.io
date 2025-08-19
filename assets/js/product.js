@@ -81,8 +81,16 @@ function setValues(product) {
   document.querySelector(".title").textContent = product.name;
   document.querySelector(".price").textContent = `₹ ${product.price}/- `;
 
-  let isOutOfStock = true;
+  product.tags.forEach((tag) => {
+    const div = document.createElement("div");
+    div.classList.add("feature");
+    const text = document.createElement("p");
+    text.innerText = tag;
+    div.appendChild(text);
+    document.querySelector(".features").appendChild(div);
+  });
 
+  let isOutOfStock = true;
   if (product.colors.length > 1) {
     product.colors.forEach((color) => {
       const div = document.createElement("div");
@@ -136,23 +144,25 @@ function setValues(product) {
   }
 
   buyButton = document.querySelector(".buy-btn");
-  buyButton.addEventListener("click", () => {
-    let followLink =
-      "https://wa.me/" +
-      phoneNumber +
-      "?text=" +
-      encodeURIComponent(`I am interested in buying the *${product.name}*`);
+  if (!isOutOfStock) {
+    buyButton.addEventListener("click", () => {
+      let followLink =
+        "https://wa.me/" +
+        phoneNumber +
+        "?text=" +
+        encodeURIComponent(`I am interested in buying the *${product.name}*`);
 
-    if (product.colors.length > 1) {
-      const item = product.colors.find((entry) => entry.id === activeColor);
-      if (item) {
-        followLink += ` in *${item.encodedName || item.name}*`;
+      if (product.colors.length > 1) {
+        const item = product.colors.find((entry) => entry.id === activeColor);
+        if (item) {
+          followLink += ` in *${item.encodedName || item.name}*`;
+        }
       }
-    }
-    followLink += ".";
-    console.log(followLink);
-    window.open(followLink, "_blank");
-  });
+      followLink += ".";
+      console.log(followLink);
+      window.open(followLink, "_blank");
+    });
+  }
 }
 
 // ! FETCH PRODUCTS AND FIND MATCH
