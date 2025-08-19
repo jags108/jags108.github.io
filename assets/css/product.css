@@ -245,3 +245,20 @@ header {
     margin-bottom: 40px;
   }
 }
+
+@media (max-width: 440px) {
+  #focus-content .images .all-images {
+    width: 15vw;
+    height: 15vw;
+  }
+
+  #focus-content {
+    height: auto;
+    padding: 15px;
+  }
+
+  #focus-content .text-content {
+    height: auto;
+    padding: 10px;
+  }
+}
