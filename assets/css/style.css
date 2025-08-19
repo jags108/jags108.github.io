@@ -60,7 +60,7 @@
   box-sizing: border-box;
 }
 
-body {
+html {
   scroll-behavior: smooth;
 }
 
@@ -178,25 +178,6 @@ header h4 {
 
 /* ! Reusable Widgets */
 
-.section-title {
-  text-align: center;
-  font-family: "TTNorms";
-  font-weight: normal;
-  font-size: 1.8rem;
-  margin-bottom: 100px;
-  position: relative;
-}
-
-.section-title::after {
-  content: "";
-  display: block;
-  height: 5px;
-  width: 150px;
-  background-color: black;
-  margin: 12px auto 0 auto;
-  border-radius: 3px;
-}
-
 /* ! Home Section */
 
 #home {
@@ -255,6 +236,7 @@ header h4 {
 #products {
   height: max(100vh, auto);
   background-color: rgbA(158, 204, 230, 0.1);
+  scroll-margin-top: 70px;
 }
 
 #products .products-wrapper {
@@ -262,6 +244,25 @@ header h4 {
   display: flex;
   justify-items: center;
   flex-direction: column;
+}
+
+#products .section-title {
+  text-align: center;
+  font-family: "TTNorms";
+  font-weight: normal;
+  font-size: 1.8rem;
+  margin-bottom: 100px;
+  position: relative;
+}
+
+#products .section-title::after {
+  content: "";
+  display: block;
+  height: 5px;
+  width: 150px;
+  background-color: black;
+  margin: 12px auto 0 auto;
+  border-radius: 3px;
 }
 
 #products .products-container {
@@ -431,10 +432,53 @@ header h4 {
   background-color: rgb(247, 54, 86);
 }
 
+/* ! CONTACT us */
+
+#contact-us {
+  padding: 60px 120px;
+  background-color: #fff;
+}
+
+#contact-us .section-title {
+  padding: 60px 0;
+  color: #90d5de;
+  font-family: "TTNorms";
+  font-size: 2.4rem;
+  margin-bottom: 30px;
+}
+
+#contact-us .contact-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#contact-us .contact-container .contact-list h3 {
+  font-family: "TTNorms";
+  font-size: 1.5rem;
+  color: #90d5de;
+  margin-bottom: 20px;
+}
+
+#contact-us .contact-container .contact-list p {
+  font-family: "OpenSauceOne";
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+#contact-us .contact-container .contact-list.social-icons {
+  width: 200px;
+}
+
+#contact-us .contact-container .contact-list img {
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+}
+
 /* ! RESPONSIVENESS */
 @media (max-width: 1100px) {
   header {
-    padding: 50px 10vw;
+    padding: 40px 10vw;
     position: fixed;
     top: 0;
     width: 100%;
@@ -494,6 +538,27 @@ header h4 {
     margin: 0 20px;
     width: 260px;
   }
+
+  #contact-us {
+    padding: 40px;
+  }
+
+  #contact-us .section-title {
+    text-align: center;
+    width: 100%;
+  }
+
+  #contact-us .contact-container {
+    flex-direction: column;
+    row-gap: 40px;
+    align-items: center;
+  }
+
+  #contact-us .contact-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 @media (max-width: 500px) {
@@ -525,5 +590,9 @@ header h4 {
 
   #products .products-wrapper {
     padding: 90px 20px;
+  }
+
+  #contact-us .section-title {
+    font-size: 2rem;
   }
 }
