@@ -134,6 +134,25 @@ function setValues(product) {
     document.querySelector(".buy-btn").classList.add("disabled");
     document.querySelector(".buy-btn a").textContent = "Out Of Stock";
   }
+
+  buyButton = document.querySelector(".buy-btn");
+  buyButton.addEventListener("click", () => {
+    let followLink =
+      "https://wa.me/" +
+      phoneNumber +
+      "?text=" +
+      encodeURIComponent(`I am interested in buying the *${product.name}*`);
+
+    if (product.colors.length > 1) {
+      const item = product.colors.find((entry) => entry.id === activeColor);
+      if (item) {
+        followLink += ` in *${item.encodedName || item.name}*`;
+      }
+    }
+    followLink += ".";
+    console.log(followLink);
+    window.open(followLink, "_blank");
+  });
 }
 
 // ! FETCH PRODUCTS AND FIND MATCH
