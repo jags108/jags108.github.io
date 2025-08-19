@@ -1,6 +1,6 @@
 header {
   background-color: #fff;
-  padding: 30px 120px;
+  padding: 40px 120px;
 }
 
 #focus-content {
@@ -15,8 +15,9 @@ header {
   border-radius: 20px;
   display: flex;
   flex-direction: row-reverse;
-  justify-content: space-between;
   padding: 10px;
+  width: 40vw;
+  gap: 20px;
 }
 
 #focus-content .text-content {
@@ -27,6 +28,8 @@ header {
 #focus-content .images .all-images {
   width: 5.5rem;
   height: 5.5rem;
+  display: flex;
+  flex-direction: column;
 }
 
 #focus-content .images .all-images img {
@@ -44,7 +47,8 @@ header {
 }
 
 #focus-content .images .onscreen-image {
-  width: 80%;
+  width: 30vw;
+  height: 30vw;
   aspect-ratio: 1 / 1;
 }
 
@@ -84,6 +88,8 @@ header {
   display: flex;
   margin-top: 35px;
   column-gap: 30px;
+  flex-wrap: wrap;
+  row-gap: 20px;
 }
 
 #focus-content .features .feature {
@@ -133,6 +139,7 @@ header {
   border-radius: 5px;
   border: 2px solid white;
   cursor: pointer;
+  transition: 0.3s;
 }
 
 #focus-content .product-colors div.active {
@@ -180,4 +187,61 @@ header {
   color: #fff;
   font-family: "OpenSauceOne";
   font-weight: bold;
+}
+
+@media (max-width: 1200px) {
+  #focus-content .images {
+    flex-direction: column;
+    width: 60vw;
+    gap: 20px;
+  }
+
+  #focus-content .images .all-images {
+    width: 7vw;
+    height: 7vw;
+    column-gap: 15px;
+    flex-direction: row;
+  }
+
+  #focus-content .images .onscreen-image {
+    width: 40vw;
+    height: 40vw;
+    aspect-ratio: 1 / 1;
+  }
+}
+
+@media (max-width: 950px) {
+  #focus-content {
+    flex-direction: column;
+    row-gap: 80px;
+  }
+
+  #focus-content .images {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #focus-content .images .all-images {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 1 / 1;
+    width: 10vw;
+    height: 10vw;
+  }
+
+  #focus-content .images .onscreen-image {
+    width: 70vw;
+    height: 70vw;
+    aspect-ratio: 1 / 1;
+  }
+
+  #focus-content .text-content .title {
+    margin-top: 10px;
+  }
+
+  #focus-content .buy-btn {
+    margin-bottom: 40px;
+  }
 }
