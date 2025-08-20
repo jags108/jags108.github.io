@@ -406,7 +406,7 @@ header h4 {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  border: 3px solid black;
+  border: 2px solid black;
 }
 
 .product-colors div.out-of-stock {
@@ -421,15 +421,15 @@ header h4 {
 }
 
 .product-colors .product-blue {
-  background-color: rgb(18, 98, 218);
+  background-color: #1a388d;
 }
 
 .product-colors .product-red {
-  background-color: rgb(226, 63, 51);
+  background-color: #ba0832;
 }
 
 .product-colors .product-pink {
-  background-color: rgb(247, 54, 86);
+  background-color: #f230a9;
 }
 
 /* ! CONTACT us */
