@@ -1,38 +1,38 @@
 [
   {
     "name": "Tote Bags",
-    "image": "/assets/img/products/thumbnails/ToteBags.png",
+    "image": "/assets/img/thumbnails/ToteBags.png",
     "price": "5999",
     "colors": [
       {
-        "name": "/assets/img/products/internal/ToteBags04.png",
+        "name": "/assets/img/internal/ToteBags04.png",
         "stock": 3,
         "encodedName": "Brave Text",
         "id": 1
       },
       {
-        "name": "/assets/img/products/internal/ToteBags05.png",
+        "name": "/assets/img/internal/ToteBags05.png",
         "stock": 1,
         "encodedName": "Hello Kitty",
         "id": 2
       },
       {
-        "name": "/assets/img/products/internal/ToteBags06.png",
+        "name": "/assets/img/internal/ToteBags06.png",
         "stock": 1,
         "encodedName": "Coffee Image",
         "id": 3
       }
     ],
     "images": [
-      "/assets/img/products/internal/ToteBags01.png",
-      "/assets/img/products/internal/ToteBags02.png",
-      "/assets/img/products/internal/ToteBags03.png"
+      "/assets/img/internal/ToteBags01.png",
+      "/assets/img/internal/ToteBags02.png",
+      "/assets/img/internal/ToteBags03.png"
     ],
     "tags": ["Jute", "Big", "Washable"]
   },
   {
     "name": "Colored Jute",
-    "image": "/assets/img/products/thumbnails/ColoredJute.png",
+    "image": "/assets/img/thumbnails/ColoredJute.png",
     "price": "499",
     "colors": [
       { "name": "blue", "stock": 2, "id": 1 },
@@ -40,67 +40,67 @@
       { "name": "pink", "stock": 2, "id": 3 }
     ],
     "images": [
-      "/assets/img/products/internal/ColoredJuteBlue.png",
-      "/assets/img/products/internal/ColoredJuteRed.png",
-      "/assets/img/products/internal/ColoredJutePink.png"
+      "/assets/img/internal/ColoredJuteBlue.png",
+      "/assets/img/internal/ColoredJuteRed.png",
+      "/assets/img/internal/ColoredJutePink.png"
     ],
     "tags": ["Jute", "Big", "Washable"]
   },
   {
     "name": "Sling Bag",
-    "image": "/assets/img/products/thumbnails/SlingBag.png",
+    "image": "/assets/img/thumbnails/SlingBag.png",
     "price": "199",
     "colors": [{ "name": "normal", "stock": 6 }],
-    "images": ["/assets/img/products/internal/SlingBag.png"],
+    "images": ["/assets/img/internal/SlingBag.png"],
     "tags": ["Jute", "Big", "Washable"]
   },
   {
     "name": "Designed Jute",
-    "image": "/assets/img/products/thumbnails/DesignedJute.png",
+    "image": "/assets/img/thumbnails/DesignedJute.png",
     "price": "999",
     "colors": [
       {
-        "name": "/assets/img/products/internal/DesignedJute04.png",
+        "name": "/assets/img/internal/DesignedJute04.png",
         "stock": 3,
         "encodedName": "Brave Text",
         "id": 1
       },
       {
-        "name": "/assets/img/products/internal/DesignedJute05.png",
+        "name": "/assets/img/internal/DesignedJute05.png",
         "stock": 1,
         "encodedName": "Hello Kitty",
         "id": 2
       },
       {
-        "name": "/assets/img/products/internal/DesignedJute06.png",
+        "name": "/assets/img/internal/DesignedJute06.png",
         "stock": 1,
         "encodedName": "Coffee Image",
         "id": 3
       }
     ],
     "images": [
-      "/assets/img/products/internal/DesignedJute01.png",
-      "/assets/img/products/internal/DesignedJute02.png",
-      "/assets/img/products/internal/DesignedJute03.png"
+      "/assets/img/internal/DesignedJute01.png",
+      "/assets/img/internal/DesignedJute02.png",
+      "/assets/img/internal/DesignedJute03.png"
     ],
     "tags": ["Jute", "Big", "Washable"]
   },
   {
     "name": "Hemp Bag",
-    "image": "/assets/img/products/thumbnails/HempBags.png",
+    "image": "/assets/img/thumbnails/HempBags.png",
     "price": "999",
     "colors": [{ "name": "normal", "stock": 6 }],
-    "images": ["/assets/img/products/internal/HempBag.png"],
+    "images": ["/assets/img/internal/HempBag.png"],
     "tags": ["Jute", "Big", "Washable"]
   },
   {
     "name": "Colored Stripes",
-    "image": "/assets/img/products/thumbnails/ColoredStripes.png",
+    "image": "/assets/img/thumbnails/ColoredStripes.png",
     "price": "999",
     "colors": [{ "name": "normal", "stock": 6 }],
     "images": [
-      "/assets/img/products/internal/ColoredStripes01.png",
-      "/assets/img/products/internal/ColoredStripes02.png"
+      "/assets/img/internal/ColoredStripes01.png",
+      "/assets/img/internal/ColoredStripes02.png"
     ],
     "tags": ["Jute", "Big", "Washable"]
   }
