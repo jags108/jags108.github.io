@@ -75,6 +75,10 @@ header {
   letter-spacing: 1.1px;
 }
 
+#focus-content .text-content .prices {
+  display: flex;
+}
+
 #focus-content .text-content .price {
   margin-top: 10px;
   font-family: "TTNorms";
@@ -82,6 +86,12 @@ header {
   font-weight: normal;
   text-transform: uppercase;
   letter-spacing: 1.1px;
+}
+
+#focus-content .text-content .price.discount {
+  color: red;
+  text-decoration: line-through;
+  margin-right: 10px;
 }
 
 #focus-content .features {
