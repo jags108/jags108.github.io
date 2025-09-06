@@ -223,14 +223,15 @@ header h4 {
 }
 
 #home .brand-img {
-  height: min(30vw, 50vh);
-  width: min(30vw, 50vh);
+  height: min(40vw, 60vh);
+  width: min(30vw, 70vh);
 }
 
 #home .brand-img img {
   border-radius: 15px;
   height: 100%;
   width: 100%;
+  object-fit: contain;
 }
 
 .banner {
