@@ -79,7 +79,17 @@ function clickColor(colorId) {
 // ! SET VALUES OF THE PAGE
 function setValues(product) {
   document.querySelector(".title").textContent = product.name;
+
+  const hasDiscount = "discount" in product;
   document.querySelector(".price").textContent = `₹ ${product.price}/- `;
+  if (hasDiscount) {
+    const newPrice = document.createElement("h3");
+    newPrice.classList.add("price");
+    newPrice.textContent = `₹ ${product.discount}/- `;
+
+    document.querySelector(".price").classList.add("discount");
+    document.querySelector(".prices").appendChild(newPrice);
+  }
 
   product.tags.forEach((tag) => {
     const div = document.createElement("div");
