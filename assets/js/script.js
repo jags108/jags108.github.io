@@ -59,8 +59,10 @@ function generateProductCards(dataChunk, append = false) {
 
   dataChunk.forEach((product) => {
     const [colorsHTML, isOutOfStock] = getColorsHTML(product);
+    let hasDiscount = false;
     let styleOfContainer = "";
     let isOutOfStockText = "";
+    if ("discount" in product) hasDiscount = true;
     if (product.colors.length > 1) styleOfContainer += 'style="opacity:1"';
     if (isOutOfStock) isOutOfStockText = "out-of-stock";
 
@@ -76,7 +78,10 @@ function generateProductCards(dataChunk, append = false) {
   <div class="product-content">
     <div class="product-info">
       <h6>${product.name}</h6>
-      <p>₹ ${product.price}</p>
+      <div class="product-prices">
+      <p class="${hasDiscount ? "discount" : ""}">₹ ${product.price}</p>
+      ${hasDiscount ? `<p> ₹ ${product.discount}</p>` : ""}
+      </div>
     </div>
     <a><i class="ri-shopping-cart-line ${isOutOfStockText}"></i></a>
   </div>
