@@ -28,7 +28,7 @@
       "/assets/img/internal/ToteBags02.png",
       "/assets/img/internal/ToteBags03.png"
     ],
-    "tags": ["Jute", "Big", "Washable"]
+    "tags": []
   },
   {
     "name": "Colored Jute",
@@ -44,7 +44,7 @@
       "/assets/img/internal/ColoredJuteRed.png",
       "/assets/img/internal/ColoredJutePink.png"
     ],
-    "tags": ["Jute", "Big", "Washable"]
+    "tags": []
   },
   {
     "name": "Sling Bag",
@@ -52,7 +52,7 @@
     "price": "240",
     "colors": [{ "name": "normal", "stock": 6 }],
     "images": ["/assets/img/internal/SlingBag.png"],
-    "tags": ["Jute", "Big", "Washable"]
+    "tags": []
   },
   {
     "name": "Designed Jute",
@@ -83,7 +83,7 @@
       "/assets/img/internal/DesignedJute02.png",
       "/assets/img/internal/DesignedJute03.png"
     ],
-    "tags": ["Jute", "Big", "Washable"]
+    "tags": []
   },
   {
     "name": "Hemp Bag",
@@ -91,7 +91,7 @@
     "price": "300",
     "colors": [{ "name": "normal", "stock": 6 }],
     "images": ["/assets/img/internal/HempBag.png"],
-    "tags": ["Jute", "Big", "Washable"]
+    "tags": []
   },
   {
     "name": "Colored Stripes",
@@ -102,6 +102,6 @@
       "/assets/img/internal/ColoredStripes01.png",
       "/assets/img/internal/ColoredStripes02.png"
     ],
-    "tags": ["Jute", "Big", "Washable"]
+    "tags": []
   }
 ]
