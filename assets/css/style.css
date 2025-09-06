@@ -153,7 +153,9 @@ h4 {
 /* ! Header */
 
 header {
-  padding: 40px 120px;
+  padding: 35px 120px;
+  height: 100px;
+  display: flex;
   position: fixed;
   top: 0;
   width: 100%;
@@ -229,6 +231,18 @@ header h4 {
   border-radius: 15px;
   height: 100%;
   width: 100%;
+}
+
+.banner {
+  background-color: #ffcc00;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  position: sticky;
+  top: 100px;
+  z-index: 999;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  font-family: "Times New Roman", Times, serif;
 }
 
 /* ! Product Section */
@@ -365,12 +379,22 @@ header h4 {
   width: 95%;
 }
 
+#products .product .product-prices {
+  display: flex;
+}
+
 #products .product p {
   font-family: "TTNorms";
   font-weight: normal;
   font-size: 0.9rem;
   letter-spacing: 1px;
   text-transform: uppercase;
+}
+
+#products .product p.discount {
+  color: red;
+  text-decoration: line-through;
+  margin-right: 10px;
 }
 
 #products .product-load-btn {
@@ -395,11 +419,14 @@ header h4 {
   right: 0px;
   display: flex;
   column-gap: 8px;
-  background-color: #ffffff59;
   padding: 15px;
   border-top-left-radius: 10px;
   border-bottom-right-radius: 10px;
   opacity: 0;
+}
+
+#products .product-colors {
+  background-color: #00000015;
 }
 
 .product-colors div {
