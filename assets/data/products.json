@@ -28,7 +28,8 @@
       "/assets/img/internal/ToteBags02.png",
       "/assets/img/internal/ToteBags03.png"
     ],
-    "tags": []
+    "tags": [],
+    "insta": "www.youtube.com"
   },
   {
     "name": "Colored Jute",
@@ -62,19 +63,19 @@
       {
         "name": "/assets/img/internal/DesignedJute04.png",
         "stock": 3,
-        "encodedName": "Brave Text",
+        "encodedName": "Flowers",
         "id": 1
       },
       {
         "name": "/assets/img/internal/DesignedJute05.png",
         "stock": 1,
-        "encodedName": "Hello Kitty",
+        "encodedName": "Food",
         "id": 2
       },
       {
         "name": "/assets/img/internal/DesignedJute06.png",
         "stock": 1,
-        "encodedName": "Coffee Image",
+        "encodedName": "Tree",
         "id": 3
       }
     ],
