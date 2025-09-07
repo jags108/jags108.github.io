@@ -75,6 +75,11 @@ header {
   letter-spacing: 1.1px;
 }
 
+#focus-content .text-content .pricent p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
 #focus-content .text-content .prices {
   display: flex;
 }
@@ -176,6 +181,14 @@ header {
   transform: scale(1);
 }
 
+#focus-content .btns {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
 #focus-content .buy-btn {
   margin-top: 40px;
   width: 100%;
@@ -205,6 +218,40 @@ header {
   color: #fff;
   font-family: "OpenSauceOne";
   font-weight: bold;
+}
+
+#focus-content .insta-btn {
+  margin-top: 40px;
+  width: 100%;
+  text-align: center;
+  padding: 20px 10px;
+  border-radius: 20px; /* ✅ Rounded corners */
+  border: 2px solid transparent;
+  background: linear-gradient(#fff) padding-box,
+    linear-gradient(131deg, rgba(220, 17, 140, 1), rgba(119, 58, 208, 1))
+      border-box;
+  cursor: pointer;
+  color: #fff;
+}
+
+#focus-content .insta-btn:hover {
+  background: linear-gradient(#dadada) padding-box,
+    linear-gradient(131deg, rgba(220, 17, 140, 1), rgba(119, 58, 208, 1))
+      border-box;
+}
+
+#focus-content .insta-btn a {
+  font-family: "OpenSauceOne";
+  font-weight: bold;
+  background: linear-gradient(
+    131deg,
+    rgba(220, 17, 140, 1) 0%,
+    rgba(119, 58, 208, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; /* Safari/Chrome */
+  background-clip: text; /* Standard */
+  color: transparent; /* fallback */
 }
 
 @media (max-width: 1200px) {
