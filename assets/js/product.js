@@ -81,6 +81,7 @@ function setValues(product) {
   document.querySelector(".title").textContent = product.name;
 
   const hasDiscount = "discount" in product;
+  const hasInsta = "insta" in product;
   document.querySelector(".price").textContent = `₹ ${product.price}/- `;
   if (hasDiscount) {
     const newPrice = document.createElement("h3");
@@ -89,6 +90,10 @@ function setValues(product) {
 
     document.querySelector(".price").classList.add("discount");
     document.querySelector(".prices").appendChild(newPrice);
+  }
+
+  if (!hasInsta) {
+    document.querySelector(".insta-btn").remove();
   }
 
   product.tags.forEach((tag) => {
