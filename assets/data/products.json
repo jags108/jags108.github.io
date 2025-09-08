@@ -12,7 +12,7 @@
       },
       {
         "name": "/assets/img/internal/ToteBags05.png",
-        "stock": 1,
+        "stock": 0,
         "encodedName": "Hello Kitty",
         "id": 2
       },
@@ -106,3 +106,4 @@
     "tags": []
   }
 ]
+
