@@ -61,7 +61,7 @@
     "colors": [
       {
         "name": "/assets/img/internal/DesignedJute04.png",
-        "stock": 3,
+        "stock": 0,
         "encodedName": "Flowers",
         "id": 1
       },
@@ -105,5 +105,6 @@
     "tags": []
   }
 ]
+
 
 
