@@ -50,6 +50,7 @@
     "name": "Sling Bag",
     "image": "/assets/img/thumbnails/SlingBag.png",
     "price": "240",
+    "discount" : "200",
     "colors": [{ "name": "normal", "stock": 6 }],
     "images": ["/assets/img/internal/SlingBag.png"],
     "tags": []
@@ -105,6 +106,7 @@
     "tags": []
   }
 ]
+
 
 
 
