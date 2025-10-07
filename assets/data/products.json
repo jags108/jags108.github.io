@@ -6,7 +6,7 @@
     "colors": [
       {
         "name": "/assets/img/internal/ToteBags04.png",
-        "stock": 0,
+        "stock": 2,
         "encodedName": "Brave Text",
         "id": 1
       },
@@ -18,7 +18,7 @@
       },
       {
         "name": "/assets/img/internal/ToteBags06.png",
-        "stock": 0,
+        "stock": 2,
         "encodedName": "Coffee Image",
         "id": 3
       }
@@ -35,9 +35,9 @@
     "image": "/assets/img/thumbnails/ColoredJute.png",
     "price": "120",
     "colors": [
-      { "name": "blue", "stock": 0, "id": 1 },
+      { "name": "blue", "stock": 1, "id": 1 },
       { "name": "red", "stock": 0, "id": 2 },
-      { "name": "pink", "stock": 0, "id": 3 }
+      { "name": "pink", "stock": 1, "id": 3 }
     ],
     "images": [
       "/assets/img/internal/ColoredJuteBlue.png",
@@ -106,6 +106,7 @@
     "tags": []
   }
 ]
+
 
 
 
