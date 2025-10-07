@@ -12,7 +12,7 @@
       },
       {
         "name": "/assets/img/internal/ToteBags05.png",
-        "stock": 0,
+        "stock": 1,
         "encodedName": "Hello Kitty",
         "id": 2
       },
@@ -28,7 +28,7 @@
       "/assets/img/internal/ToteBags02.png",
       "/assets/img/internal/ToteBags03.png"
     ],
-    "tags": []
+    "tags": ["Laminated Canvas", "Modern Design"]
   },
   {
     "name": "Colored Jute",
@@ -106,6 +106,7 @@
     "tags": []
   }
 ]
+
 
 
 
